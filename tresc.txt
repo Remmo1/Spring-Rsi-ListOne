@@ -1,0 +1,40 @@
+
+Ćwiczenie można zrealizować w wersji A lub B.
+
+Wersja A [REST Service (ver. WCF)]
+W domu, przed zajęciami labo w poniedziałek 15 maja, w środowisku Visual Studio 2022 z .NET Framework 4.8 należy zrealizować ćwiczenie 4 zgodnie z instrukcją "Cw4-REST-WCF-1a.pdf".
+
+Na zajęciach labo należy zbudować serwis, który udostępnia operacje CRUD na "bazie danych osób" w formie generycznej listy|arraylisty, plus aktualny rozmiar listy|arraylisty, plus zawartość całej listy|arraylisty, plus filtrowanie/wyszukiwanie.
+
+Klasa Person zawiera minimum następujące pola:
+id typu int
+name typu String
+age typu int
+email typu String
+
+Serwis zgłasza/wyrzuca "typowe" wyjątki, które są obsługiwane w kliencie, np. próba dodania do bazy osoby już w niej istniejącej (=jednakowe wartości name, age i email).
+
+Aplikacja kliencka oferuje użytkownikowi przyjazne/ergonomiczne menu tekstowe.
+
+Zadanie można zrealizować za 10 punktów w środowisku dwumaszynowym lub 8 punktów w środowisku jednomaszynowym.
+
+Uwaga
+1. Pierwsza instrukcja w kodzie serwera i klienta to MyData.info().
+2. Za -2 punkty zadanie można oddać bez dedykowanej aplikacji klienckiej, tylko z Postmanem.
+
+Wersja B [REST service (ver. Spring)]
+W domu, przed zajęciami labo w poniedziałek 15 maja, w środowisku IntelliJ + Sprig należy zrealizować ćwiczenie 4 zgodnie z niepełną instrukcją "Cw4-REST-Spring-1a.pdf".
+
+Na zajęciach labo należy zbudować serwis, który udostępnia operacje CRUD na "bazie danych osób" w formie generycznej listy|arraylisty, plus aktualny rozmiar listy|arraylisty, plus zawartość całej listy|arraylisty, plus filtrowanie/wyszukiwanie; kod serwisu ze wsparciem HATEOAS.
+
+Klasa Person zawiera minimum następujące pola:
+id typu int
+name typu String
+age typu int
+email typu String
+
+Serwis zgłasza/wyrzuca "typowe" wyjątki, które są obsługiwane w kliencie, np. próba dodania do bazy osoby już w niej istniejącej (=jednakowe wartości name, age i email).
+
+Aplikacja kliencka oferuje użytkownikowi przyjazne/ergonomiczne menu tekstowe.
+
+Zadanie można zrealizować za 10 punktów w środowisku dwumaszynowym lub 8 punktów w środowisku jednomaszynowym.
